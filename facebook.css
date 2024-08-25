@@ -1,0 +1,197 @@
+* {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: rgb(240, 240, 240);
+      margin: 40px;
+}
+
+h1 {
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight:bold;
+      font-size: 600%;
+      margin-top:13%;
+      color: #0866ff;
+}
+
+h2 {
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      font-size:250%;
+      margin-top:inherit;
+      color: #000000;
+}
+
+.p1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 23px;
+      color: #0866ff;
+      margin-top: 20px;
+      margin-bottom: 5px;
+}
+
+.p2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      color: #000000;
+}
+
+.p3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:12px; color: #757575;
+}
+
+.main_container {
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      gap:0%;
+      width: 80%; height: 1150px;
+      padding: 1%;
+      margin-left: auto; margin-right: auto;
+      border: 2px solid rgb(240, 240, 240);
+}
+
+.section_1 {
+      display: flex;
+      justify-content:center;
+      width: 99.5%; height: 55%;
+      margin-top: 120px;
+      background-color: rgb(220, 240, 240,0);
+}
+
+.section_2 {
+      display: flex;
+      justify-content:flex-end;
+      align-items:center;
+      width: 99.5%; height: 8%;
+      padding-right: 10px;
+      background-color: rgb(240, 240, 240);
+}
+
+/*------------Facebook Logo Card Left ----------------*/
+.section_1 .card_left {
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      align-items:flex-start;
+      width:45%; height: 90%;
+      margin:1%; padding:0%; gap:inherit;
+      background-color: rgb(236, 236, 236, 0);
+      /*border: .1em solid rgb(196, 220, 255);*/
+}
+
+/*------------Facebook Logo Card right ----------------*/
+.section_1 .card_right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:flex-start;
+      width:35%; height: 87%;
+      margin:1%; padding: 0%; gap:inherit;
+      background-color: rgb(236, 236, 236, 0);
+      /*border: .1em solid rgb(196, 220, 255);*/
+}
+
+.section_2 .card_right-1 {
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      width:45%; height: 50%;
+      margin-right: 45px; margin-top: -100px;padding: 0%; gap:inherit;
+      background-color: rgb(228, 228, 228, 0);
+      border: .1em solid rgb(196, 220, 255, .0);
+}
+
+.login_form {
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      
+      width: 100%; height: 400%;
+      margin: 0%; padding: 0%;
+      
+      background-color: rgb(250, 249, 249);
+      border-radius: 13px;
+      box-shadow: 3px 4px 8px rgb(0, 0, 0, .2);
+      
+}
+
+.inputstyle {
+      display: flex;
+      flex-direction: column;
+      /*justify-content:space-evenly;*/
+      align-items:normal;
+      width: 95%; height: 15%;
+      margin: 0%; padding-left: 5%;
+      border-style: solid;
+      border-color: #dddddd; border-radius: 10px;
+      font-size: 25px; 
+}
+
+.buttonstyle-1 {
+      width: 95%; height: 15%;
+      margin: 1%; padding: 1%;
+      background-color: #0866ff; color: white;
+      border-style: solid 50%; border-color: #ededed; border-radius: 10px;
+      font-family: Helvetica, sans-serif; font-weight: bold; font-size: 30px;
+}
+
+.buttonstyle-2 {
+      width: 49%; height: 15%;
+      margin: 1%; padding: 1%;
+      background-color: rgb(44, 179, 44); color: white;
+      border-style: solid 50%; border-color: #ededed; border-radius: 10px;
+      font-family: Helvetica, sans-serif; font-weight: bold; font-size: 22px;
+}
+
+table,th,td {
+      width: 50%;
+      border-collapse: collapse;
+      border: 1px solid rgb(199, 199, 199, 0) ;
+      font-family:Arial, Helvetica, sans-serif; font-weight: lighter;
+      font-size: 18px; color: #757575;
+      margin-left: 130px ;margin-top: 6%;
+      padding: 8px;
+}
+
+.grid-container-1 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+      align-items:normal;
+      margin-top: 25px;
+      border: 2px solid rgb(199, 199, 199);
+      margin-left: 0%; padding: 0px; gap: 0px;
+
+}
+
+.container-2  {
+      width: 99.9%;
+      margin-top: 25px;
+      border: 2px solid rgb(199, 199, 199, .0);
+      margin-left: 0%; padding: 0px; gap: 0px;
+}
+
+pre{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:16px; color: #757575;
+      white-space: pre-wrap;
+      width: 85%;
+      margin-left: 130px;
+      
+}
+
+.box1 {
+      border-style: dashed;
+      border-style: solid; 
+      border: 2px solid rgb(199, 199, 199);
+      text-align:left;
+      margin: 0px;
+      padding: 3px 3px;
+      font-family: Arial, Helvetica, sans-serif; color: #757575;
+      font-size: 16px;
+}
