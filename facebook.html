@@ -1,128 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Facebook</title>
-      
-      <!-- Adding Favicon -->
-      <link rel="fb icon" href="./Fevicon/facebook_icon_32x32.png" type="image/fb-icon" </link>
-
-      <!-- Adding CSS link -->
-       <link rel="stylesheet" href="./facebook.css">
-      
-</head>
-<body>
-
-<div class="main_container">
-   <div class="section_1">
-
-<!------------Facebook Logo Card Left ---------------->
-      <div class="section_1 card_left">
-         <h1>facebook</h1>
-         <h2>Facebook helps you connect and share with the people in your life.</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Fevicon/facebook_icon_512x512.png"
+      type="image/x-icon"
+    />
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="./facebook.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- section 1 -->
+      <div class="section-1">
+        <!-- section 1 left part -->
+        <div class="section-1-left">
+          <h1>facebook</h1>
+          <p>
+            Facebook helps you connect and share with the people in your life.
+          </p>
+        </div>
+        <!-- section 1 right part -->
+        <div class="section-1-right">
+          <form class="login-form">
+            <!-- email input -->
+            <input
+              type="email"
+              placeholder="Email address or phone number"
+              required
+            />
+            <!-- password input -->
+            <input type="password" placeholder="Password" required />
+            <!-- Log in button -->
+            <input type="submit" value="Log in" />
+            <!-- forgot password link -->
+            <a href="#">Forgotten password?</a>
+            <hr />
+            <!-- create new account button -->
+            <button class="create-btn">Create new account</button>
+          </form>
+          <p><span>Create a Page</span> for a celebrity, brand or business.</p>
+        </div>
       </div>
-
-<!------------Facebook Login Form Right ---------------->
-      <div class="section_1 card_right">
-         
-         <form class="login_form">
-
-            <input class="inputstyle" type="email" type="number" id="Full" value="" placeholder="Email or phone number">
-            <br>
-         
-            <input class="inputstyle" type="password" id="password" placeholder="Password" value="">
-            <br>
-
-            <button class="buttonstyle-1" type="button" onclick="alert('welcome to Facebook')"> Log in </button>
-         
-            <p class="p1"> Forgot your password? </p>
-            <br>
-
-            <hr style="width: 95%; height:3px; color: rgb(211, 211, 211);">
-            <br>
-
-            <button class="buttonstyle-2" type="button" onclick="alert" welcome to Facebook> <a href="./Storyboard-FB.png" target="_blank">  Create a new account </a> </button>
-         </form>
+      <!-- section 2 -->
+      <div class="section-2">
+        <!-- Languages List -->
+        <ul class="list">
+          <li title="English"><a href="#">English (UK)</a></li>
+          <li title="Marathi"><a href="#">मराठी</a></li>
+          <li title="Hindi"><a href="#">हिन्दी</a></li>
+          <li title="Urdu"><a href="#">اردو</a></li>
+          <li title="Gujrati"><a href="#">ગુજરાતી</a></li>
+          <li title="Kannada"><a href="#">ಕನ್ನಡ</a></li>
+          <li title="Punjabi"><a href="#">ਪੰਜਾਬੀ</a></li>
+          <li title="Tamil"><a href="#">தமிழ்</a></li>
+          <li title="Bengali"><a href="#">বাংলা</a></li>
+          <li title="telugu"><a href="#">తెలుగు</a></li>
+          <li title="Malayalam"><a href="#">മലയാളം</a></li>
+          <li title="More Languages" class="more-lang-btn">
+            <a href="#">+</a>
+          </li>
+        </ul>
+        <hr class="footer-hr" />
+        <!-- Product and Services List -->
+        <ul class="list">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log in</a></li>
+          <li><a href="#">Messenger</a></li>
+          <li><a href="#">Facebook Lite</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Meta Pay</a></li>
+          <li><a href="#">Meta Store</a></li>
+          <li><a href="#">Meta Quest</a></li>
+          <li><a href="#">Meta AI</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Threads</a></li>
+          <li><a href="#">Fundraisers</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Voting Information Centre</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Privacy Centre</a></li>
+          <li><a href="#">Cookie settings</a></li>
+          <li><a href="#">Groups</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Create Ad</a></li>
+          <li><a href="#">Create Page</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">AdChoices</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact uploading and non-users</a></li>
+        </ul>
+        <!-- copyright -->
+        <span class="footer-span">Meta &copy; 2024</span>
       </div>
-   </div>
-
-<!----------------------------------------------------------->
-
-<!------------ Create a page  ---------------->
-   <div class="section_2">
-      <div class="section_2 card_right-1">
-         <p class="p2"> <b>Create a page for</b> a celebrity, brand or business. </p>
-      </div>
-   </div>
-
-<!------------ Language Table  ---------------->
-   <div>
-      <table>  
-         <tr>
-            <th> Marathi </th>
-            <th> Hindi </th>
-            <th> Urdu </th>
-            <th> Gujarathi </th>
-            <th> Kannada </th>
-            <th> Punjabi </th>
-            <th> Tamil </th>
-            <th> Banga </th>
-            <th> Telgu </th>
-            <th> Malayalam </th>
-            <th> English_UK </th>
-         </tr>
-      </table>
-   </div>
-
-<hr style=" width: 85%;  margin-left: 130px; height:2px; color: blue;">
-
-<!------------ Footer  ---------------->
-   <div class="container-2">
-         <pre >Sign in          Log in         Messenger         Facebook Lite         Video         Places         Games         Marketplace         Meta play         Meta Store         Meta Quest         Meta AI         Instagram         Threads         Assistance Funds         Services         Voter Information Centre         Privacy Policy         Privacy Center         Groups         Information         Create an ad         Create a page         Developer         Career         Cookies         Ad selection         Conditions         Help         Contact with uploading and non-user
-         </pre-wrap>
-   </div>
-         <p class="p3" style="margin-left: 130px;"> Meta c 2024 </p>
-   </div>
-</div>
-
-      
-
-</body>
+    </div>
+  </body>
 </html>
-
-<!--<div class="grid-container-1">
-   <div class="box1">Sign in </div>
-   <div class="box1">Log in </div>
-   <div class="box1">Messenger </div>
-   <div class="box1">Facebook Lite </div>
-   <div class="box1"> Video </div>
-   <div class="box1"> Places </div>
-   <div class="box1"> Games </div>
-   <div class="box1"> Marketplace </div>
-   <div class="box1"> Meta play </div>
-   <div class="box1"> Meta Store </div>
-   <div class="box1"> Meta Quest </div>
-   <div class="box1"> Meta AI </div>
-   <div class="box1"> Instagram </div>
-   <div class="box1"> Threads </div>
-   <div class="box1"> Assistance Funds </div>
-   <div class="box1"> Services </div>
-   <div class="box1"> Voter Information Centre </div>
-   <div class="box1"> Privacy Policy </div>
-   <div class="box1"> Privacy Center </div>
-   <div class="box1"> Groups </div>
-   <div class="box1"> Information </div>
-   <div class="box1"> Create an ad </div>
-   <div class="box1"> Create a page </div>
-   <div class="box1"> Developer </div>
-   <div class="box1"> Career </div>
-   <div class="box1"> Cookies </div>
-   <div class="box1"> Ad selection </div>
-   <div class="box1"> Conditions </div>
-   <div class="box1"> Help </div>
-   <div class="box1"> Contact with uploading and non-user </div>
-</div>
-
--->
-
